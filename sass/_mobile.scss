@@ -1,0 +1,28 @@
+@media only screen and (max-width: 768px) {
+  #navbar {
+    .logo {
+      display: none;
+    }
+  }
+  #home-main {
+    .heading {
+      font-size: 2.5rem;
+      letter-spacing: normal;
+    }
+    .text {
+      font-size: 1.3rem;
+      letter-spacing: normal;
+    }
+    .btn {
+      padding: 0.9rem 1.5rem;
+    }
+  }
+  #languages {
+    border: none;
+    .container {
+      width: 100%;
+
+      grid-template-columns: 1fr !important;
+    }
+  }
+}

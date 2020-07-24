@@ -1,0 +1,62 @@
+.pd-1 {
+    padding: 1rem;
+}
+
+.pd-2 {
+    padding: 2rem;
+}
+
+.pd-3 {
+    padding: 3rem;
+}
+
+#current {
+    background: $mediem-color;
+    padding: 1rem;
+}
+
+.heading {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+
+}
+
+.text {
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 10px;
+    padding-bottom: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: .9rem 4rem;
+    border-radius: 10px;
+    cursor: pointer;
+    background: $light-color;
+    color: $dark-color;
+    letter-spacing: 3px;
+
+    :visited {
+        color: $dark-color
+    }
+
+    :hover {
+        color: $main-color;
+    }
+}
+
+.heading-1 {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 10px;
+    text-transform: uppercase;
+}
+
+.normaltext {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 20px;
+}
